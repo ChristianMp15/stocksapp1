@@ -7,12 +7,11 @@ const Nav = props => {
             <Link to='/'>
                 <div>This is the Home Page</div>
             </Link>
-            <Link to='/stocks/:symbol'>
-                <div>STOCK</div>
-            </Link>
+            
             <Link to='/stocks'>
                 <div>STOCKS</div>
             </Link>
+            
         </div>
     );
 }
